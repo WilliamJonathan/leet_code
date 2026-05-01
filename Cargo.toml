@@ -1,0 +1,6 @@
+[workspace]
+resolver = "2"
+members = [
+    "rust/a00001_merge_strings_eu",
+    "rust/a00001_merge_strings_ia",
+]
