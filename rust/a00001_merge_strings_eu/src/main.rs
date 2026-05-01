@@ -71,10 +71,20 @@ impl Solution {
     }
 }
 
-// Pequeno main para testar a função
+// Pequeno `main` para demonstrar a função com os exemplos do enunciado.
 fn main() {
-    let word1 = "abc".to_string();
-    let word2 = "pqr".to_string();
-    let resultado = Solution::merge_alternately(word1, word2);
-    println!("{}", resultado); // Deve imprimir "apbqcr"
+    let examples = [
+        ("abc", "pqr"),
+        ("ab", "pqrs"),
+        ("abcd", "pq"),
+    ];
+
+    for (w1, w2) in &examples {
+        println!(
+            "Input: \"{}\", \"{}\" => Output: \"{}\"",
+            w1,
+            w2,
+            Solution::merge_alternately(w1.to_string(), w2.to_string())
+        );
+    }
 }
