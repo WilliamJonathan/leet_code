@@ -1,0 +1,6 @@
+[package]
+name = "a00002_minimo_operacoes_ia"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
