@@ -2,5 +2,5 @@
 resolver = "2"
 members = [
     "rust/a00001_merge_strings_eu",
-    "rust/a00001_merge_strings_ia",
+    "rust/a00001_merge_strings_ia", "rust/a00002_minimo_operacoes_eu",
 ]
